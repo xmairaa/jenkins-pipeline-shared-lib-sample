@@ -2,5 +2,5 @@
 
 def call(body) {
     echo "erclient.groovy ----------------"
-    return return new Sample ().toErClient()
+    return new Sample ().toErClient()
 }
