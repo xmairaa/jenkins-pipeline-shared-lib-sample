@@ -19,6 +19,7 @@ public class Sample {
     }
     public String toErClient() {
         final String erUrl = EiffelJenkinsGlobalConfiguration.get().getErRestUrl()
+        println "ER URL ---------------------------------------"+erUrl
         return ERClient.getInstance(erUrl)
     }
 }
