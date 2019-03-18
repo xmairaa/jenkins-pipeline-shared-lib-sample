@@ -4,7 +4,7 @@ class ERClient {
 
     ERClient get() {
         final String erUrl = EiffelJenkinsGlobalConfiguration.get().getErRestUrl()
-        println "ER URL ---------------------------------------"+erUrl
+        println "ER URL2 ---------------------------------------"+erUrl
         return ERClient.getInstance(erUrl)
     }
 }
